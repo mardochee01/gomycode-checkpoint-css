@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.element-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin: 1rem 3rem;
+    color: rgb(91, 148, 91);
+}
+
+.navbar-other{
+    display: flex;
+    gap: 1.5rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header-sec-2{
+    background-color: blue;
+}
+
+.text-header-sec-2{
+    text-align: center;
+    padding: 3rem;
+}
+
+h1{
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    color: white;
+    font-size: 1rem;
+}
+
+.header-sec-2-img{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.header-sec-2-img-img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+main{
+    background-color: rgb(136, 145, 136);
+    padding: 3rem;
+}
+
+.text-main{
+    color: red;
+    text-align: center;
+}
+
+.main-img{
+    text-align: center;
+}
+
+.main-img-img-bottom{
+    padding-bottom: 2rem;
+}
+
+.main-img-img-img{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.footer-sec-1{
+    background-color: yellow;
+}
+
+.footer-sec-1-social-network-text{
+    text-align: center;
+    color: red;
+    padding: 2rem 0 1rem 0;
+}
+
+.footer-sec-1-social-network-img{
+    text-align: center;
+}
+
+.footer-sec-1-social-network-img-img{
+    height: 100px;
+    width: 200px;
+}
+
+.footer-sec-1-mail-text{
+    text-align: center;
+    color: black;
+    padding-top: 1rem;
+}
+
+.footer-sec-1-forms{
+    display: flex;
+    justify-content:space-around;
+    gap: 200px;
+}
+
+.footer-sec-1-forms-forms{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.footer-sec-2{
+    height: 3rem;
+}
